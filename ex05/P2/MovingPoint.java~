@@ -1,0 +1,18 @@
+class MovingPoint{
+    int x = 0;
+    int y = 0;
+
+    void MovingPoint(int a,int b){
+
+    }
+
+    void setVelocity(){
+    }
+
+
+    void print(){
+    }
+    
+    void getDistance(){
+    }
+}

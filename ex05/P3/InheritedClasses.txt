@@ -1,0 +1,17 @@
+• How many fields does the Point have?
+A. 2 fields
+
+• How many fields does the MovingPoint have?
+A. 4 fields
+
+• How many methods does the Point have?
+A. 3 methods
+
+• How many methods does the MovingPoint have?
+A. 4 methods
+
+• What are the advantages that the solution to Problem C has over the solution to Problem B?
+A. MovingPoint extends Point
+
+• Can you execute the following operation at the end of TestObjectApplication? And why?
+A.You can do it. Because the getDistance method of the Point class can receive a MovingPoint object.

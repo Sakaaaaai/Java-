@@ -1,0 +1,9 @@
+• Which method overrides a method in the superclass?
+  A.methodTwo
+  
+• Which method hides a method in the superclass?
+  A.methodFour
+
+• What do the other methods do?
+  A.methodOne,methodThree ⇒ compile error
+   

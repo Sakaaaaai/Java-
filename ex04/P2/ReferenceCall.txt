@@ -1,0 +1,7 @@
+1.Ι can expect (x,y) = (8, 5)
+
+2,First Point point = new Point(8, 5); makes (x,y)=(8,5)
+
+   Second, void movePoint(Point p)'s member variables are private,
+   but public void setX(int x){ this.x = x; } is public,
+   so (x,y)=(100,120).

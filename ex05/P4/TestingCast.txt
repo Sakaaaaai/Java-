@@ -1,0 +1,9 @@
+1. 3 oreration is implicit cast.
+
+2. 3 above are explicit cast.
+
+3. Since the Point class is a superclass of the MovingPoint class, 
+   an object reference of type Point can refer to an object of type MovingPoint.
+
+4.In operation 3, we need to convert the type of o2 to MovingPoint by casting o2 to o3 and then assign it. 
+  Converting an object reference of type Point to type MovingPoint requires an explicit cast.

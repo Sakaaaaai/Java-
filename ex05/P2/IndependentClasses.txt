@@ -1,0 +1,16 @@
+⚫ How many fields does the Point have?
+   A.2
+   
+⚫ How many fields does the MovingPoint have?
+   A.4
+   
+⚫ How many methods does the Point have?
+   A.2
+   
+⚫ How many methods does the MovingPoint have?
+   A.4
+
+⚫ Are there any fields with the same meaning in the Point and MovingPoint classes?
+   A.x,y
+⚫ Are there any methods in the Point and MovingPoint classes expressing similar behavior?
+   A.print,getDistance

@@ -1,0 +1,1 @@
+Because the member variables of private void movePoint(int x, int y) are private, they can only be stored or referenced via methods.
