@@ -1,0 +1,18 @@
+class Stack{
+    int size=0;
+    int stack[100];
+
+    void Push(int x){
+	stack[size] = x;
+	size++;
+    }
+
+    int Pop(void){
+	size--;
+	x = stack[size];
+	stack[size] = 0;
+    }
+	 
+	
+    
+    

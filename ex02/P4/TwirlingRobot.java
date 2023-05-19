@@ -1,0 +1,45 @@
+class TwirlingRobot{
+    int x;
+    int y;
+    int dir;
+
+    void initialize(int x, int y, int d){
+	this.x = x;
+	this.y = y;
+	dir = d;
+    }
+
+    void turnLeft(){
+	if(dir == 0)dir = 3;
+	else dir -= 1;
+    }
+
+    void turnRight(){
+        if(dir == 3)dir = 0;
+	else dir += 1;
+    }
+
+    void move(){
+	if(dir == 0){
+	    y -= 1;
+	    if(y < -4)y += 1;
+	}
+        else if(dir == 1){
+	    x += 1;
+	    if(x > 4)x -= 1;
+	}
+	else if(dir == 2){
+	    y += 1;
+	    if(y > 4)y -= 1;
+	}
+	else if(dir == 3){
+	    x -= 1;
+            if(x < -4)x += 1;
+	}
+    }
+
+    void printLocation(){
+    System.out.println("(" + x + ", " + y + ")");
+    }
+    
+}
