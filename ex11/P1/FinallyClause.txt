@@ -1,0 +1,24 @@
+1. Why does the program print the two lines below?
+(1) Exception occurred
+(2) in finally clause
+A.In the second iteration of the loop, the line if (++count == 2) throw new Exception(); 
+is executed. Here, ++count increases the value of count to 2. As a result, 
+an exception is thrown by the throw new Exception(); statement.
+The exception is caught by the catch block and the message "(2) Exception occurred" is printed.
+After the exception is caught, the program enters the finally block and the message "(2) in finally clause" is printed.
+Thus, these two lines are output.
+
+2. Why does the program print the line below (It looks like the program does not print the line because
+of the break statement)?
+(3) in finally clause
+A.After the exception is thrown in the previous iteration and caught, the program executes the finally block, 
+which outputs the message "(2) in finally clause". The code then reaches the break; statement and exits the loop.
+Before exiting the loop, the program executes the finally block again, and the message "(3) in finally clause" is printed.
+Thus, the finally block is executed and the line is output even though a break statement exists.
+
+3. Why does the program print the line below?
+Main program ends
+A.After the loop is terminated by the break statement, 
+the program continues to execute and reaches the line System.out.println("Main program ends");.
+This line is outside the loop and is not affected by any exceptions or conditional statements.
+Therefore, this line is printed, indicating the end of the main program.
